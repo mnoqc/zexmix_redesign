@@ -1,0 +1,134 @@
+truncate product_img_dm;
+truncate product_img_dd;
+
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT001',  'woman/top/WT001/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT002',  'woman/top/WT002/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT003',  'woman/top/WT003/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT004',  'woman/top/WT004/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT005',  'woman/top/WT005/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT006',  'woman/top/WT006/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_DM)  VALUES  ('WT007',  'woman/top/WT007/thumnail.jpg'); 
+INSERT INTO product_img_dm (p_serialNo, p_productImg_DM) VALUES ('MO001', 'man/outer/MO001/thumnail.jpg');
+
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail1.gif');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail2.jpg');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail3.jpg');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail4.jpg');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail5.jpg');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail6.gif');
+INSERT INTO product_img_dd (p_serialNo, p_explainImg) VALUES ('MO001','man/outer/MO001/detail7.gif');
+
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('MT001',  'man/top/MT001/thumnail.gif');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('MT002',  'man/top/MT002/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('MT003',  'man/top/MT003/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('MT004',  'man/top/MT004/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('MT005',  'man/top/MT005/thumnail.jpg');   
+
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('GT001',  'golf/top/GT001/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('GT002',  'golf/top/GT002/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('GT003',  'golf/top/GT003/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('GT004',  'golf/top/GT004/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('GT005',  'golf/top/GT005/thumnail.jpg');   
+
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('KT001',  'kid/top/KT001/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('KT002',  'kid/top/KT002/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('KT003',  'kid/top/KT003/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('KT004',  'kid/top/KT004/thumnail.jpg');   
+INSERT INTO product_img_dm  (p_serialNo,  p_productImg_dm)  VALUES  ('KT005',  'kid/top/KT005/thumnail.jpg');   
+
+
+
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail1.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail2.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail3.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail4.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail5.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail6.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail7.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail8.jpg');  
+INSERT INTO product_img_dd  (p_serialNo,  p_explainImg)  VALUES ('WT001','woman/top/WT001/detail9.jpg');  
+
+
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT002','woman/top/WT002/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT002','woman/top/WT002/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT002','woman/top/WT002/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT003','woman/top/WT003/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT003','woman/top/WT003/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT003','woman/top/WT003/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT004','woman/top/WT004/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT004','woman/top/WT004/detail2.jpg');
+
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT005','woman/top/WT005/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT005','woman/top/WT005/detail2.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT006','woman/top/WT006/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT06','woman/top/WT006/detail2.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT007','woman/top/WT007/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('WT007','woman/top/WT007/detail2.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT001','man/top/MT001/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT001','man/top/MT001/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT001','man/top/MT001/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT002','man/top/MT002/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT002','man/top/MT002/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT002','man/top/MT002/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT003','man/top/MT003/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT003','man/top/MT003/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT003','man/top/MT003/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT004','man/top/MT004/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT004','man/top/MT004/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT004','man/top/MT004/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT005','man/top/MT005/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT005','man/top/MT005/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('MT005','man/top/MT005/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT001','kid/top/KT001/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT001','kid/top/KT001/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT001','kid/top/KT001/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT002','kid/top/KT002/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT002','kid/top/KT002/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT002','kid/top/KT002/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT003','kid/top/KT003/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT003','kid/top/KT003/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT003','kid/top/KT003/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT004','kid/top/KT004/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT004','kid/top/KT004/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT004','kid/top/KT004/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT005','kid/top/KT005/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT005','kid/top/KT005/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('KT005','kid/top/KT005/detail3.jpg');
+
+
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT001','golf/top/GT001/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT001','golf/top/GT001/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT001','golf/top/GT001/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT002','golf/top/GT002/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT002','golf/top/GT002/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT002','golf/top/GT002/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT003','golf/top/GT003/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT003','golf/top/GT003/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT003','golf/top/GT003/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT004','golf/top/GT004/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT004','golf/top/GT004/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT004','golf/top/GT004/detail3.jpg');
+
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT005','golf/top/GT005/detail1.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT005','golf/top/GT005/detail2.jpg');
+INSERT INTO product_img_dd   (p_serialNo, p_explainImg)  VALUES ('GT005','golf/top/GT005/detail3.jpg');
